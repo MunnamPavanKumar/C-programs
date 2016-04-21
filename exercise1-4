@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	// your code goes here
+	float celsius;
+	float farhen;
+	printf("enter the celsius temperature");
+	scanf("%f",&farhen);
+	celsius=5.0/9.0*(farhen-32.0);
+	printf("the temperature in farhen is %f", celsius);
+}
+
