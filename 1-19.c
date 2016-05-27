@@ -32,8 +32,7 @@ int i=0,c;
 
 while((c=getchar())!=EOF){
 	    
-	       s[i]=c;
-	     ++i;
+	     
 	        
 	    if(c=='\n' ){
 	    
@@ -44,7 +43,8 @@ while((c=getchar())!=EOF){
 	       
 	       }
 	    
-	   
+	     s[i]=c;
+	     ++i;
 	}
 	if(c==EOF){
 	    
